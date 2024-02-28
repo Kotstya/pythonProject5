@@ -1,5 +1,5 @@
 import csv
-###!
+###!мм
 with open('students.csv', encoding='utf-8') as file:
     reader = list(csv.DictReader(file, delimiter=','))
     sum_score = {}
